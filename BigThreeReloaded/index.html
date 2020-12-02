@@ -3,18 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Big Three Reloaded</title>
     <script src="index.js"></script>
 </head>
 <body>
     <script>
-        //mensaje();
-        //const nombre = prompt("Ingrese su nombre");
-        //saludarUsuario(nombre);
-        //mostrarPares([1, 3, 5, 6, 8, 9]);
         const numbers = bigThree(3);
-        console.log(numbers);
-        highNumber(numbers);
+        const highNum = highNumber(numbers);
+        document.write(`Los números ingresados son: ${numbers} y el mayor número ingresado es: ${highNum}`);
     </script>
 </body>
 </html>
